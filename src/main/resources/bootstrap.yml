@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SantiagoArb/SpringCloud-Config.git
+  security:
+    user:
+      name: admin
+      password: admin1234
+server:
+  port: 8888
